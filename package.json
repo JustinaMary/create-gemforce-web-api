@@ -1,7 +1,7 @@
 {
 	"name": "create-gemforce-web-api",
-	"version": "1.0.2",
-	"description": "Build REST and GraphQL APIs by running one command",
+	"version": "1.0.3",
+	"description": "Build REST or GraphQL Web APIs by executing a single command",
 	"main": "src/index.js",
 	"author": "Justina",
 	"license": "MIT",

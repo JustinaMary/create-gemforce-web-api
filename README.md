@@ -1,6 +1,6 @@
 # create-gemforce-web-api
 
-Build REST/GraphQL APIs with one command
+Build REST/GraphQL APIs with single command
 
 Typescript REST/GraphQL code generator with JWT authentication
 
