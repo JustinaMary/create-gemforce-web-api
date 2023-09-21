@@ -1,0 +1,46 @@
+{
+	"name": "create-gemforce-web-api",
+	"version": "1.0.4",
+	"description": "Build REST and GraphQL APIs by running one command",
+	"main": "src/index.js",
+	"author": "Justina",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JustinaMary/create-gemforce-web-api.git"
+	},
+	"bugs": {
+		"url": "https://github.com/JustinaMary/create-gemforce-web-api/issues"
+	},
+	"homepage": "https://github.com/JustinaMary/create-gemforce-web-api#readme",
+	"bin": {
+		"create-gemforce-web-api": "./src/index.js"
+	},
+	"files": [
+		"src"
+	],
+	"scripts": {
+		"start": "node src/index.js"
+	},
+	"keywords": [
+		"node",
+		"node.js",
+		"typescript",
+		"boilerplate",
+		"generator",
+		"api",
+		"express",
+		"rest",
+		"graphql",
+		"typeorm",
+		"docker",
+		"jwt"
+	],
+	"devDependencies": {},
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"fs-extra": "^10.0.0",
+		"inquirer": "^8.1.2",
+		"mustache": "^4.2.0"
+	}
+}

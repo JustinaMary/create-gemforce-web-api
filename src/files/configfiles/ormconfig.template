@@ -1,0 +1,14 @@
+{
+	"type": "{{type}}",
+	"database": "{{{database}}}",
+	{{#isNotSqlite}}
+	"host": "{{host}}",
+	"port": {{port}},
+	"username": "{{username}}",
+	"password": "{{password}}",
+	{{/isNotSqlite}}
+	"synchronize": false,
+	"logging": true,
+	"entities": ["dist/entities/**/*.js"],
+	"migrations": ["dist/dataAccess/migrations/**/*.js"]
+}
