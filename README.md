@@ -10,9 +10,9 @@ npx create-gemforce-web-api <project-name>
 then 
 ```bash
 cd <project-name>
-yarn install
-yarn build
-yarn start
+yarn install or npm install
+yarn build or npm run build
+yarn start or npm start
 ```
 
 ## Example
@@ -40,27 +40,27 @@ to see what this generator creates for you checkout [this project](https://githu
 Starting app:
 
 ```bash
-yarn start
+yarn start or npm start
 ```
 Starting with nodemon
 ```bash
-yarn startd
+yarn startd or npm run startd
 ```
 Debuging:
 ```bash
-yarn debug
+yarn debug or npm run debug
 ```
 Typescript build:
 ```bash
-yarn build
+yarn build or npm run build
 ```
 Typescript build (watch mode):
 ```bash
-yarn watch
+yarn watch or npm run watch
 ```
 Creating typeorm migration
 ```bash
-yarn migration:create
+yarn migration:create or npm run migration:create
 ```
 ## Environment Variables
 
